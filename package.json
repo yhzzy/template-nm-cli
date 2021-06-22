@@ -1,0 +1,17 @@
+{
+  "name": "<%= name %>",
+  "version": "<%= version %>",
+  "releaseVersion": "1.0.0",
+  "description": "<%= description %>",
+  "private": "<%= private %>",
+  "main": "lib/index.js",
+  "bin": {
+    "yh-cli": "bin/cli.js"
+  },
+  "files": ["lib"],
+  "author": "<%= author %>",
+  "license": "<%= license %>",
+  "engines": {
+    "node": ">=6"
+  }
+}
